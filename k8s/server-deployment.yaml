@@ -28,7 +28,7 @@ spec:
               value: postgres-cluster-ip-service
             - name: PGPORT
               value: '5432'
-            - name: PGDATABSE
+            - name: PGDATABASE
               value: postgres
             - name: PGPASSWORD
               valueFrom: #section to refer to a secret inside docker
